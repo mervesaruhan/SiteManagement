@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiteManagement", "SiteManagement\SiteManagement.csproj", "{EB26BF5D-7212-4AFD-A029-4D5F1C4FD56B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenAuth.API", "TokenAuth.API\TokenAuth.API.csproj", "{0E081525-DAC3-4C4C-B6C0-B72ED25134F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB26BF5D-7212-4AFD-A029-4D5F1C4FD56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB26BF5D-7212-4AFD-A029-4D5F1C4FD56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB26BF5D-7212-4AFD-A029-4D5F1C4FD56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB26BF5D-7212-4AFD-A029-4D5F1C4FD56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E081525-DAC3-4C4C-B6C0-B72ED25134F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E081525-DAC3-4C4C-B6C0-B72ED25134F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E081525-DAC3-4C4C-B6C0-B72ED25134F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E081525-DAC3-4C4C-B6C0-B72ED25134F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C720F68C-48F8-4EEF-AA64-CA45E7DAA1AB}
+	EndGlobalSection
+EndGlobal
