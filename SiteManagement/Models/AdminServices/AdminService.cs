@@ -241,22 +241,22 @@ public class AdminService : IAdminService
     //BONUS:DÜZENLİ ÖDEME YAPAN KULLANICILARI GÖRME
     public List<User> GetRegularPayingUsersForApartment(int apartmentNumber)
     {
-        // Daireden yaşayan kullanıcıları al
+       
         var users = _userRepository.GetUsersByApartmentNumber(apartmentNumber);
 
-        // Düzenli olarak ödeme yapan kullanıcıları tutacak liste
+        
         var regularPayingUsers = new List<User>();
 
         foreach (var user in users)
         {
-            // Kullanıcının ödemelerini al
+            
             var payments = _paymentRepository.GetPaymentsByUserId(user.Id);
 
-            // Kullanıcının tüm ödemeleri için bir döngü oluştur
+            
             bool isRegularPayer = true;
             foreach (var payment in payments)
             {
-                // Eğer herhangi bir ödeme gecikmişse, düzenli ödeyenler listesine eklemiyoruz
+                
                 if (payment.PaymentDate.AddMonths(1) < DateTime.Now)
                 {
                     isRegularPayer = false;
@@ -264,7 +264,7 @@ public class AdminService : IAdminService
                 }
             }
 
-            // Kullanıcı düzenli olarak ödeme yapıyorsa, listeye ekliyoruz
+           
             if (isRegularPayer)
             {
                 regularPayingUsers.Add(user);

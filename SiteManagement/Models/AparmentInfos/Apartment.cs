@@ -18,9 +18,9 @@ namespace SiteManagement.Models.AparmentInfos
         //public Invoice Invoices { get; set; }
 
         //public List<Invoice> Invoices { get; set; }
-        public virtual ICollection<User> Users { get; set; } // Apartmana ait kullanıcılar koleksiyonu
-        public virtual ICollection<Payment> Payments { get; set; } // Apartmana ait ödemeler koleksiyonu
-        public virtual ICollection<Invoice> Invoices { get; set; } // Apartmana ait faturalar koleksiyonu
+        public virtual ICollection<User> Users { get; set; } 
+        public virtual ICollection<Payment> Payments { get; set; } 
+        public virtual ICollection<Invoice> Invoices { get; set; } 
 
     }
 }

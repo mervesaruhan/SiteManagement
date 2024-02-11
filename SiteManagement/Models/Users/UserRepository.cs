@@ -51,7 +51,7 @@ namespace SiteManagement.Models.Users
 
 
 
-        //buraya ödeme işlemlerini de eklemem lazım
+        
 
         //bundan sonrası yetkilendirmeyle ele alınacak
 

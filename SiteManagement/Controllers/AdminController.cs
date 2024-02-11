@@ -87,7 +87,7 @@ namespace SiteManagement.Controllers
         }
 
         [Authorize]
-        [HttpGet]
+        [HttpGet("Payment_usrid")]
         public IActionResult GetPaymentsByUserId(int userId)
         {
             try
